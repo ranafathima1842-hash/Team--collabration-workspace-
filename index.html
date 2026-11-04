@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamSpace | Collaboration Workspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- TOP NAVIGATION BAR -->
+        <header class="topbar">
+
+            <div class="brand">
+                <div class="brand-icon">T</div>
+                <h2>TeamSpace</h2>
+            </div>
+
+            <div class="topbar-center">
+                <input type="text" placeholder="Search projects, tasks...">
+            </div>
+
+            <div class="topbar-right">
+                <span class="notification">♢</span>
+                <div class="avatar">RF</div>
+                <span class="username">Rana</span>
+            </div>
+
+        </header>
+
+
+        <!-- MAIN BODY: THREE REGIONS -->
+        <div class="workspace">
+
+            <!-- LEFT SIDEBAR -->
+            <aside class="left-sidebar">
+
+                <p class="sidebar-heading">WORKSPACE</p>
+
+                <nav class="navigation">
+                    <a href="#" class="nav-item active">▦ Dashboard</a>
+                    <a href="#" class="nav-item">✓ My Tasks</a>
+                    <a href="#" class="nav-item">▣ Projects</a>
+                    <a href="#" class="nav-item">▤ Calendar</a>
+                    <a href="#" class="nav-item">▧ Files</a>
+                </nav>
+
+                <div class="sidebar-bottom">
+                    <p class="sidebar-heading">TEAM</p>
+                    <a href="#" class="nav-item">♧ Members</a>
+                    <a href="#" class="nav-item">⚙ Settings</a>
+                </div>
+
+            </aside>
+
+
+            <!-- MAIN CONTENT AREA -->
+            <main class="main-content">
+
+                <div class="welcome-section">
+                    <div>
+                        <p class="date-label">MONDAY, NOVEMBER 04</p>
+                        <h1>Good morning, Rana!</h1>
+                        <p class="welcome-text">
+                            Here's what's happening with your projects today.
+                        </p>
+                    </div>
+
+                    <button class="new-project">+ New Project</button>
+                </div>
+
+
+                <!-- PROJECT INFORMATION -->
+                <section class="project-section">
+
+                    <div class="section-heading">
+                        <h2>Project Overview</h2>
+                        <span>View all →</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <span class="project-tag">FEATURED PROJECT</span>
+                            <h3>CampusCircle</h3>
+                            <p>Building a better student community platform.</p>
+                        </div>
+
+                        <div class="progress-area">
+                            <span>Project progress</span>
+                            <strong>75%</strong>
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!-- TASK SUMMARY CARDS -->
+                <section class="tasks-section">
+
+                    <div class="section-heading">
+                        <h2>Task Summary</h2>
+                        <span>See all →</span>
+                    </div>
+
+                    <div class="task-cards">
+
+                        <div class="task-card">
+                            <div class="card-top">
+                                <span class="task-icon purple">▣</span>
+                                <span class="status progress">In Progress</span>
+                            </div>
+
+                            <h3>UI Design</h3>
+                            <p>Complete the dashboard interface.</p>
+
+                            <div class="task-footer">
+                                <span>Due Nov 08</span>
+                                <div class="mini-avatar">RF</div>
+                            </div>
+                        </div>
+
+
+                        <div class="task-card">
+                            <div class="card-top">
+                                <span class="task-icon orange">⌘</span>
+                                <span class="status pending">Pending</span>
+                            </div>
+
+                            <h3>Development</h3>
+                            <p>Build the project management module.</p>
+
+                            <div class="task-footer">
+                                <span>Due Nov 10</span>
+                                <div class="mini-avatar second">AK</div>
+                            </div>
+                        </div>
+
+
+                        <div class="task-card">
+                            <div class="card-top">
+                                <span class="task-icon green">✓</span>
+                                <span class="status completed">Completed</span>
+                            </div>
+
+                            <h3>Research</h3>
+                            <p>Collect user requirements and feedback.</p>
+
+                            <div class="task-footer">
+                                <span>Completed Nov 02</span>
+                                <div class="mini-avatar third">SM</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- RECENT ACTIVITY -->
+                <section class="activity-section">
+
+                    <div class="section-heading">
+                        <h2>Recent Activity</h2>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-dot"></div>
+                        <div>
+                            <strong>UI Design updated</strong>
+                            <p>Rana updated the dashboard layout · 20 min ago</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-dot orange-dot"></div>
+                        <div>
+                            <strong>New task assigned</strong>
+                            <p>Development task assigned to Alex · 1 hour ago</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-dot green-dot"></div>
+                        <div>
+                            <strong>Research completed</strong>
+                            <p>Sarah completed the research task · Yesterday</p>
+                        </div>
+                    </div>
+
+                </section>
+
+            </main>
+
+
+            <!-- RIGHT SIDEBAR -->
+            <aside class="right-sidebar">
+
+                <section class="team-section">
+
+                    <div class="right-heading">
+                        <h3>Team Members</h3>
+                        <span>See all</span>
+                    </div>
+
+                    <div class="member">
+                        <div class="member-avatar purple-bg">AK</div>
+                        <div class="member-info">
+                            <strong>Alex Kumar</strong>
+                            <p>UI Designer</p>
+                        </div>
+                        <span class="online"></span>
+                    </div>
+
+                    <div class="member">
+                        <div class="member-avatar pink-bg">SM</div>
+                        <div class="member-info">
+                            <strong>Sarah Miller</strong>
+                            <p>Researcher</p>
+                        </div>
+                        <span class="online"></span>
+                    </div>
+
+                    <div class="member">
+                        <div class="member-avatar blue-bg">JD</div>
+                        <div class="member-info">
+                            <strong>John David</strong>
+                            <p>Developer</p>
+                        </div>
+                        <span class="offline"></span>
+                    </div>
+
+                </section>
+
+
+                <section class="upcoming-section">
+
+                    <div class="right-heading">
+                        <h3>Upcoming Tasks</h3>
+                    </div>
+
+                    <div class="upcoming-card">
+                        <span class="upcoming-date">NOV 06</span>
+                        <strong>Team Meeting</strong>
+                        <p>10:00 AM · Meeting Room</p>
+                    </div>
+
+                    <div class="upcoming-card">
+                        <span class="upcoming-date">NOV 08</span>
+                        <strong>Design Review</strong>
+                        <p>02:00 PM · Online</p>
+                    </div>
+
+                </section>
+
+
+                <div class="help-card">
+                    <h3>Need help?</h3>
+                    <p>Connect with your team to get things done faster.</p>
+                    <button>Contact Team</button>
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
